@@ -1,0 +1,39 @@
+/* Statistics.css */
+.statistics {
+  border: 1px solid #ccc;
+  margin: 10px;
+  min-width: 300px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc((100% - 1 * 2px) / 5);
+  background-color: gray;
+  color: white;
+  padding: 5px;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.percentage {
+  font-size: 20px;
+}
